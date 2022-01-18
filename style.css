@@ -1,0 +1,54 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: antiquewhite;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(7, 7, 7);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(235, 114, 134);
+}
+body {
+  font-family: "Playfair Display", serif;
+  font-size: larger;
+}
+
+#Lalisa {
+  background-color: palevioletred;
+}
+#Jennie {
+  background-color: wheat;
+}
+#Rose {
+  background-color: plum;
+}
+#jisoo {
+  background-color: pink;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
